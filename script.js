@@ -132,7 +132,6 @@ const PROJECTS = [
     title: 'Low-Resource LLM Accelerator',
     category: 'ai',
     image: './media/llm-kuantized.png',
-    images: ['./media/llm-kuantized.png', 'media/ai-cli.png'],
     desc: 'Engine inferensi LLM ringan yang dirancang untuk menjalankan model AI pada perangkat dengan resource terbatas. Dapat berjalan hanya menggunakan CPU dengan penggunaan RAM rendah dan performa generasi yang tetap responsif.',
     desc_en: 'A lightweight LLM inference engine designed to run AI models on resource-constrained devices. Runs entirely on CPU with low RAM footprint while keeping generation responsive.',
     demo: null,
@@ -661,6 +660,48 @@ const PROJECTS = [
       { name: 'Dart', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg' },
     ],
   },
+    {
+  title: 'Website Classic UI/UX Design',
+  category: 'ai',
+  image: null,
+  desc: 'SKILL.md untuk AI agent yang berfokus pada perancangan UI/UX bergaya klasik, terstruktur, dan profesional. Mengatur penggunaan tipografi, palet warna, layout, spacing, border, serta komponen antarmuka agar menghasilkan desain yang konsisten dan tidak terlalu bergaya modern.',
+  demo: null,
+  github: null,
+  tech: [
+    { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
+    { name: 'HTML5', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
+    { name: 'Tailwind CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg' },
+  ],
+},
+{
+  title: 'Nusantara Muslimah Marketplace',
+  category: 'web',
+  image: 'media/nusantara-muslimah-market/beranda.png',
+  images: ['media/nusantara-muslimah-market/beranda.png', 'media/nusantara-muslimah-market/kategori.png', 'media/nusantara-muslimah-market/produk.png', 'media/nusantara-muslimah-market/keunggulan.png', 'media/nusantara-muslimah-market/contact.png', 'media/nusantara-muslimah-market/keranjang.png'],
+  desc: 'Marketplace fashion dan kebutuhan muslimah yang dibuat dengan fokus pada tampilan yang rapi, responsif, dan mudah digunakan. Website ini menyediakan berbagai kategori produk, fitur pencarian dan filter, keranjang belanja, hingga proses checkout. Dibangun menggunakan HTML, Tailwind CSS, dan JavaScript dengan beberapa fitur seperti lazy loading gambar, navigasi interaktif, serta fallback untuk gambar yang gagal dimuat.',
+  demo: null,
+  github: null,
+  tech: [
+    { name: 'HTML5', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
+    { name: 'CSS3', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
+    { name: 'Tailwind CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg' },
+    { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
+    { name: 'Google Fonts', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg' },
+  ],
+},
+{
+  title: 'Company Profile Computer Store',
+  category: 'web',
+  image: 'media/laptop-store-company-profile/beranda.png',
+  desc: 'Dibuat untuk toko laptop di Mangga Dua yang sering kalah harga sama Tokopedia/Shopee. Saya bangun company profile satu file yang langsung jawab keraguan pembeli: katalog 5 unit terlaris, garansi resmi 1-3 tahun, servis gratis, dan pengadaan corporate 10+ unit. Pakai HTML semantic + Tailwind CDN + Vanilla JS untuk counter animasi, FAQ accordion, slider testimoni, dan validasi form. Hasilnya: struktur 500+ stok / 50+ brand / 3 cabang kebaca jelas di HP maupun desktop, plus meta SEO dan OG yang siap dipasang iklan.',
+  demo: null,
+  github: null,
+  tech: [
+    { name: 'HTML5', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
+    { name: 'Tailwind CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg' },
+    { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
+  ],
+}
 ];
 
 function esc(s) {
